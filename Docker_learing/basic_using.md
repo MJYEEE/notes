@@ -29,3 +29,21 @@ docker run -it ubuntu /bin/bash
 - /bin/bash：放在镜像名后的是命令，这里我们希望有个交互式 Shell，因此用的是 /bin/bash。
 
 输入exit退出容器
+
+##进入容器
+```
+docker exec -it ubuntu /bin/bash
+```
+
+## 将本地文件复制到容器中
+```
+docker cp xxxx ubuntu:xxxx
+```
+将当前目录下的xxxx文件复制到ubunut容器下的xxxx位置
+- 在xxxx前面加上-r，即可复制文件夹
+
+
+将两者倒置即可从容器中复制文件到本地目录
+```
+docker cp ubuntu:xxxx xxxx 
+```
