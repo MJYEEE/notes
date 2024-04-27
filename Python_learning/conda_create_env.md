@@ -39,6 +39,18 @@ conda activate D:/envs/pytorch
 ## 关闭环境
 conda deactivate
 
+## pip镜像源
+- https://pypi.tuna.tsinghua.edu.cn/simple 清华源
+- http://pypi.douban.com/ 豆瓣
+- http://mirrors.aliyun.com/pypi/simple 阿里云
+- http://pypi.hustunique.com/ 华中理工大学
+- http://pypi.sdutlinux.org/ 山东理工大学
+- http://pypi.mirrors.ustc.edu.cn/ 中国科学技术大学
+
+**注**新版ubuntu要求用https源
+
+不推荐永久修改镜像源，因为可能出问题
+
 ---
 
 ## 有时候会出现新构建的虚拟环境中通过'pip list’查看时会出现其他的未安装过的包
