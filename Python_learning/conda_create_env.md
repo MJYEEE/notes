@@ -54,7 +54,7 @@ conda deactivate
 ---
 
 ## 有时候会出现新构建的虚拟环境中通过'pip list’查看时会出现其他的未安装过的包
-通过`pythong -m site`来查看python中的基本路径设置
+通过`python -m site`来查看python中的基本路径设置
 
 ![pythong_site](images/python_site.png "site.py")
 
