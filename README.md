@@ -3,6 +3,4 @@
 
 ### 目前开坑
 - shell编写
-- docker基本使用方法
-- pytorch基本使用
-- tensorflow基本使用
+- Nginx简单使用
