@@ -16,6 +16,7 @@ sudo apt install -y nginx
 想知道Nginx安装到拿去了，输入`whereis nginx`
 
 ### 运行Nginx
+---
 启动Nginx `sudo systemctl start nginx`
 
 输入`ps -ef | grep nginx`可以查看运行中的Nginx 
@@ -27,6 +28,7 @@ sudo apt install -y nginx
 此时显示的是默认的Nginx html，它的位置在`/var/www/html`下
 
 ### 更换为自己的网页
+---
 进入`/var/www/html`下
 输入`sudo vim my_html.html`来编写一个简单的html
 ![image](images/my_html.png "123")
