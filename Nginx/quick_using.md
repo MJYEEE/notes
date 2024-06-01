@@ -37,3 +37,7 @@ sudo apt install -y nginx
 ![image](images/my_html_display.png "123")
 
 到这里为止，我们的网页边是正式在本地网络上发布了。你可以仿照上面的步骤，来将自己的网页放到自己的网络上，只有别人在相同的网络上，都可以通过ip地址来访问。如果你放在公网上，那么你在外面也可以访问它。
+
+### 停止Nginx服务
+
+当你希望停止Nginx服务时，输入`sudo systemctl stop nginx`即可停止。
