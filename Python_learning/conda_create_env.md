@@ -72,7 +72,12 @@ conda deactivate
 **注**：修改的前提是已经进入虚拟环境，这样修改的是虚拟环境下的配置，而不会影响到全局
 修改当前环境下的 site.py 文件
 
-参考 https://blog.csdn.net/chd_lcj/article/details/124943219 ，里面还有另一种方法，我这就不介绍了
+**bug**：经过测试，在ubuntu20.04系统下（其他系统暂时没有尝试），发现不能直接更改conda环境下yourenv/Lib/site.py文件，否则新建的环境系统路径里面会有你改的路径，具体体现就是如果你新建一个环境，改了它的site.py中的USER_SITE和USER_BASE，那么你再新建一个环境，这个环境中的USER_SITE和USER_BASE也是你改的那个！！！这样新环境里面使用pip也能读到上一个环境中安装的库~
+
+
+参考：
+https://blog.csdn.net/weixin_44456692/article/details/122036209
+https://blog.csdn.net/chd_lcj/article/details/124943219 ，里面还有另一种方法，我这就不介绍了
 
 
 ---
