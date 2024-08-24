@@ -182,5 +182,5 @@ hugo && rsync -e "ssh -i ${KEY}" -avzp --delete public/ ${USER}@${HOST}:${DIR}
 #更多参数可参考https://www.ruanyifeng.com/blog/2020/08/rsync.html
 ```
 
-将脚本嗯放在`blog`文件夹下，每次只需要在终端里输入`bash deploy.sh`,即可完成同步
+将脚本放在`blog`文件夹下，每次只需要在终端里输入`bash deploy.sh`,即可完成同步
 
