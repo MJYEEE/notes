@@ -37,7 +37,15 @@ conda activate D:/envs/pytorch
 ```
 
 ## 关闭环境
+```
 conda deactivate
+```
+
+## 删除环境
+```
+conda remove -n env_name --all
+conda remove -p D:/envs/pytorch --all
+```
 
 ## pip镜像源
 - https://pypi.tuna.tsinghua.edu.cn/simple 清华源
